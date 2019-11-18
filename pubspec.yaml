@@ -12,7 +12,9 @@ dependencies:
     sdk: flutter
   cloud_firestore:
     git:
-      url: https://github.com/jcsena/cloud_firestore.git
+      url: https://github.com/rosariopfernandes/flutterfire.git
+      path: packages/cloud_firestore
+      ref: rpf.add-in-and-array-contains
   rxdart: ^0.22.0
 
 flutter:
