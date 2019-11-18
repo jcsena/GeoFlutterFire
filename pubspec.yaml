@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^0.12.5
+  cloud_firestore:
+  git:
+    url: git://github.com/jcsena/flutterfire.git
+    path: packages/cloud_firestore
   rxdart: ^0.22.0
 
 flutter:
